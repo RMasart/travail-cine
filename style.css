@@ -1,0 +1,135 @@
+#imagelogo {
+    position: relative;
+
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+nav {
+    overflow: hidden;
+    background-image: url("C:/Users/rapha/OneDrive/Bureau/travail cine/affiche_vivre.png");
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+header li {
+    float: right;
+    list-style-type: none;
+
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    padding: 25%;
+    color: black;
+    -webkit-text-stroke: 0.2px red;
+}
+
+#logo1 {
+    font-weight: bold;
+    float: left;
+    position: relative;
+    left: 1000px;
+    font-size: 34px;
+}
+
+#logo2 {
+    font-weight: bold;
+    float: left;
+    position: relative;
+    left: 850px;
+    font-size: 30px;
+
+}
+
+#logo3 {
+    font-weight: bold;
+    float: left;
+    position: relative;
+    left: 35px;
+    font-size: 65px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: red;
+    padding: 15px 10px;
+    position: absolute;
+    left: 180px;
+    top: 240px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #fffae1;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#accueil {
+    position: relative;
+    left: 470px;
+    top: 1px;
+}
+
+#tout {
+    position: relative;
+    top: 1px;
+    left: 490px;
+}
+
+#propos {
+    position: relative;
+    left: 520px;
+    top: 1px;
+}
+
+#contact {
+    position: relative;
+    left: 550px;
+    top: 1px;
+}
+
+.degrade-horizontal {
+    background: linear-gradient(to right, grey, black);
+}
+
+div {
+    position: relative;
+    top: 250px;
+}
+
+h1 {
+    position: relative;
+    top: 280px;
+    text-align: center;
+}
+
+#a1 {
+    position: relative;
+    top: 280px;
+    left: 400px;
+    width: 250px;
+    height: 50px;
+}
+
+#a2 {
+    position: relative;
+    top: 280px;
+    left: 400px;
+    width: 250px;
+    height: 50px;
+}
+
+#a3 {
+    position: relative;
+    top: 280px;
+    left: 400px;
+    width: 250px;
+    height: 50px;
+}
