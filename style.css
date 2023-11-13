@@ -133,3 +133,24 @@ h1 {
     width: 250px;
     height: 50px;
 }
+
+#t {
+    position: relative;
+    top: 240px;
+    left: 700px;
+
+}
+
+#g {
+    position: relative;
+    top: 200px;
+    left: 960px;
+
+}
+
+#m {
+    position: relative;
+    top: 280px;
+    left: 480px;
+
+}
