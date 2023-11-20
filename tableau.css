@@ -15,6 +15,21 @@ nav {
 
 }
 
+#texttableau {
+    margin-top: 25%;
+    color: black;
+    -webkit-text-stroke: 0.2px red;
+    font-family: 'roboto';
+    font-size: 25px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 header li {
     float: right;
     list-style-type: none;
@@ -105,53 +120,34 @@ div {
     top: 250px;
 }
 
-h1 {
-    position: relative;
-    top: 280px;
+.jaune {
+    background-color: yellow;
+}
+
+.gris {
+    background-color: gray;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,
+td {
+    border: 2px black solid;
     text-align: center;
+    height: 1cm;
+    width: 3cm;
 }
 
-#a1 {
-    position: relative;
-    top: 280px;
-    left: 400px;
-    width: 250px;
-    height: 50px;
+.sansbordure {
+    border-style: none;
 }
 
-#a2 {
-    position: relative;
-    top: 280px;
-    left: 400px;
-    width: 250px;
-    height: 50px;
-}
-
-#a3 {
-    position: relative;
-    top: 280px;
-    left: 400px;
-    width: 250px;
-    height: 50px;
-}
-
-#t {
-    position: relative;
-    top: 240px;
-    left: 700px;
-    width: fit-content;
-}
-
-#g {
-    position: relative;
-    top: 200px;
-    left: 960px;
-    width: fit-content;
-}
-
-#m {
-    position: relative;
-    top: 280px;
-    left: 480px;
-    width: fit-content;
+footer {
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 0.2px red;
+    font-family: 'roboto';
 }

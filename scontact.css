@@ -15,6 +15,12 @@ nav {
 
 }
 
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 header li {
     float: right;
     list-style-type: none;
@@ -105,53 +111,55 @@ div {
     top: 250px;
 }
 
-h1 {
-    position: relative;
-    top: 280px;
-    text-align: center;
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-top: 25%;
+    color: black;
+    -webkit-text-stroke: 0.2px red;
+    font-family: 'roboto';
+    font-size: 25px;
 }
 
-#a1 {
-    position: relative;
-    top: 280px;
-    left: 400px;
-    width: 250px;
-    height: 50px;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-#a2 {
-    position: relative;
-    top: 280px;
-    left: 400px;
-    width: 250px;
-    height: 50px;
+form li+li {
+    margin-top: 1em;
 }
 
-#a3 {
-    position: relative;
-    top: 280px;
-    left: 400px;
-    width: 250px;
-    height: 50px;
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
 }
 
-#t {
-    position: relative;
-    top: 240px;
-    left: 700px;
-    width: fit-content;
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
 }
 
-#g {
-    position: relative;
-    top: 200px;
-    left: 960px;
-    width: fit-content;
+input:focus,
+textarea:focus {
+    border-color: #000;
 }
 
-#m {
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+#envoyer {
     position: relative;
-    top: 280px;
-    left: 480px;
-    width: fit-content;
+    top: 50%;
 }
